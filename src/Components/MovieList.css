@@ -1,0 +1,43 @@
+/* .container{
+    margin: 2em;
+}
+
+.moviegroup{
+    margin: auto;
+    width: 70%;
+} */
+
+.moviegroup h2, h1{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    text-align: left;
+}
+
+.movies {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    text-align: left;
+  }
+
+li.gallery{
+    width: 25%;
+    margin: 0.2em;
+    width: 180px;
+    display: inline-block;
+}
+
+li.gallery:hover > div.desc {
+    color: blue;
+  }
+  
+  li.gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 0.1em;
+    text-align: center;
+    color: black;
+  }
